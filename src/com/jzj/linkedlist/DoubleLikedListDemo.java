@@ -191,10 +191,7 @@ class DoubleLikedList {
             temp.next = heroNode;
         }
     }
-
-
 }
-
 //定义HeroNode，每个HeroNode对象就是一个节点
 class DoubleHeroNode {
     //前面三个为具体数据，后面为链表指针

@@ -1,7 +1,5 @@
 package com.jzj.sort;
-
 import java.util.Arrays;
-
 /**
  * @Author Jzj
  * @Date 2022/3/26 15:10
@@ -15,8 +13,6 @@ public class MergeSort {
         mergeSort(arr, 0, arr.length - 1, temp);
         System.out.println(Arrays.toString(arr));
     }
-
-
     //分+合方法
     public static void mergeSort(int[] arr, int left, int right, int[] temp) {
         if (left < right) {
@@ -29,9 +25,7 @@ public class MergeSort {
             merge(arr, left, mid, right, temp);
         }
     }
-
     //合并的方法
-
     /**
      * @param arr   排序的原始数组
      * @param left  左边有序序列的初始索引
